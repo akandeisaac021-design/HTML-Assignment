@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>That rude boys Community Landing Page</title>
+
+    <style>
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #ffffff;
+        }
+
+
+        .top-nav-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 60px;
+            background-color: #ffffff;
+            border-bottom: 1px solid #eee;
+        }
+
+        .nav-links ul {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #555;
+            font-weight: bold;
+        }
+
+        .nav-links a:hover {
+            color: #007bff;
+        }
+
+
+        .first-section {
+            background-color: #f4f7fe;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 80px 60px;
+            gap: 40px;
+        }
+
+        .introduction {
+            flex: 1;
+            max-width: 500px;
+        }
+
+        .introduction h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .hero-actions {
+            display: flex;
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .hero-image-placeholder {
+            flex: 1;
+            height: 300px;
+            background-color: #e2e8f0;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #718096;
+        }
+
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background-color 0.2s ease;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        .btn-secondary {
+            background-color: #e2e8f0;
+            color: #333;
+        }
+
+        .btn-secondary:hover {
+            background-color: #cbd5e1;
+        }
+
+
+        .about-us-section {
+            padding: 60px 20px;
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+
+        .content-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 60px 60px;
+            gap: 50px;
+        }
+
+        .content-row.reverse {
+            flex-direction: row-reverse;
+        }
+
+        .content-text {
+            flex: 1;
+        }
+
+        .content-image {
+            flex: 1;
+            height: 250px;
+            background-color: #edf2f7;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #a0aec0;
+        }
+
+
+        .blue-banner-section {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .blue-banner-section h2 {
+            margin-bottom: 20px;
+        }
+
+
+        .contact-form-section {
+            padding: 80px 20px;
+            text-align: center;
+            background-color: #ffffff;
+        }
+
+        .form-container {
+            max-width: 450px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .form-container input, .form-container textarea {
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 1rem;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .form-container button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 14px;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .form-container button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <div class="top-nav-bar">
+            <h1>Help-Everyone</h1>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#donate">Donate</a></li>
+                    <li><a href="#who-we-are">Who we are</a></li>
+                    <li><a href="#join-us">Join us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="first-section">
+            <div class="introduction">
+                <h1>We Help Everyone Here For A Better Life</h1>
+                <p>If you like helping others, get started with us today.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                    <a href="#services" class="btn btn-secondary">Watch our story</a>
+                </div>
+            </div>
+            <div class="hero-image-placeholder">Figma Hero Image Graphic</div>
+        </section>
+
+
+        <section id="who-we-are" class="about-us-section">
+            <h1>About Us</h1>
+            <p>Dedicated to building stronger, more supportive communities worldwide by providing direct resources to individual programs.</p>
+        </section>
+
+
+        <section id="services" class="services-block">
+            <div class="content-row">
+                <div class="content-text">
+                    <h2>Our Services</h2>
+                    <p>Connecting people with local volunteer opportunities to create lasting change across families.</p>
+                    <a href="#">About this &rarr;</a>
+                </div>
+                <div class="content-image">Service Illustration</div>
+            </div>
+
+            <div class="content-row reverse">
+                <div class="content-text">
+                    <h2>Resource Distribution</h2>
+                    <p>Providing essential tools and transparent funding pathways directly to local neighborhood initiatives.</p>
+                    <a href="#">About this &rarr;</a>
+                </div>
+                <div class="content-image">Distribution Illustration</div>
+            </div>
+        </section>
+
+
+        <section id="donate" class="blue-banner-section">
+            <h2>Ready to transform a neighborhood today?</h2>
+            <a href="#contact" class="btn btn-secondary" style="background-color: #fff; color: #007bff;">Join Our Mission</a>
+        </section>
+
+
+        <section id="contact" class="contact-form-section">
+            <h2>Get In Touch</h2>
+            <p style="margin-bottom: 30px;">Leave your information below and our tracking coordinators will reach out.</p>
+            <div class="form-container">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email Address" required>
+                <textarea placeholder="How would you like to help?" rows="4" required></textarea>
+                <button type="submit">Submit Form</button>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
+
