@@ -121,7 +121,7 @@ body {
     align-items: center;
 }
 
-.hero-content h1 {
+.hero-content h1{
     font-size: 56px;
     font-weight: 900;
     color: var(--kuda-purple);
@@ -130,6 +130,14 @@ body {
     margin-bottom: 24px;
 }
 
+.hero-content h3{
+    font-size: 30px;
+    font-weight: 900;
+    color: var(--kuda-purple);
+    line-height: 1.15;
+    letter-spacing: -2px;
+    margin-bottom: 24px;
+}
 .hero-content p {
     font-size: 18px;
     line-height: 1.6;
